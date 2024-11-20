@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCategory"
+        android:textColor="@color/white"
+        android:text="Category">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAmount"
+        android:text="Amount"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUsers"
+        android:text="Users"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTimestamp"
+        android:text="time"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvperUser"
+        android:text="Per User Amount"
+        android:textColor="@color/white">
+    </TextView>
+
+</LinearLayout>

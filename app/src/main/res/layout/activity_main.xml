@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roomate Expense Splitter"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp">
+    </TextView>
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="User1"-->
+<!--        android:id="@+id/checkBoxUser1">-->
+<!--    </CheckBox>-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="User2"-->
+<!--        android:id="@+id/checkBoxUser2">-->
+<!--    </CheckBox>-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="User 3"-->
+<!--        android:id="@+id/checkBoxUser3">-->
+<!--    </CheckBox>-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="User 4"-->
+<!--        android:id="@+id/checkBoxUser4">-->
+<!--    </CheckBox>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddExpense"
+        android:text="Add Expense">
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvExpenses"
+        android:layout_marginTop="16dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: ₹0, Per User: ₹0"
+        android:id="@+id/tvTotalAndPerUser">
+    </TextView>
+
+
+
+
+</LinearLayout>

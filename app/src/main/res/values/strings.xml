@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExpenseSplitter</string>
+    <string-array name="expense_categories">
+        <item>Utilities</item>
+        <item>Rent</item>
+        <item>Groceries</item>
+        <item>Other</item>
+    </string-array>
+</resources>

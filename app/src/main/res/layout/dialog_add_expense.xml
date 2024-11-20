@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategory"
+        android:entries="@array/expense_categories"
+        android:layout_marginBottom="16dp">
+    </Spinner>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:id="@+id/etNameInput">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddName"
+        android:text="add person">
+    </Button>
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Adarsh"-->
+<!--        android:id="@+id/checkBoxUser1">-->
+<!--    </CheckBox>-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Aayushi"-->
+<!--        android:id="@+id/checkBoxUser2">-->
+<!--    </CheckBox>-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Anshika"-->
+<!--        android:id="@+id/checkBoxUser3">-->
+<!--    </CheckBox>-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Bhavya"-->
+<!--        android:id="@+id/checkBoxUser4">-->
+<!--    </CheckBox>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvUserList">
+    </TextView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAmount"
+        android:hint="Enter Amount"
+        android:autofillHints="Enter Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp">
+    </EditText>
+
+
+
+</LinearLayout>
