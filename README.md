@@ -15,13 +15,6 @@ The **Expense Splitter App** is a handy Android application designed to help roo
 
 ---
 
-## Screenshots
-
-![Home Screen](path_to_home_screen_image.png)
-![Add Expense Dialog](path_to_add_expense_dialog_image.png)
-
----
-
 ## How It Works
 
 1. **Add Users**: In the "Add Expense" dialog box, users can add their names dynamically.
